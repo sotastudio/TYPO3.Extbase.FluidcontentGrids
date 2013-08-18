@@ -6,95 +6,144 @@
 	</meta>
 	<data type="array">
 		<languageKey index="default" type="array">
-			<label index="sheet.display">Display</label>
+			<!-- Element: GridContainer -->
+			<label index="flux.gridContainer">Grid container</label>
+			<label index="flux.gridContainer.description">Grid container</label>
+			<label index="flux.gridContainer.sheets.display">Display</label>
+			<label index="flux.gridContainer.fields.fluidRow">Fluid grid</label>
+			<label index="flux.gridContainer.areas.column">Column</label>
 
-			<label index="label.gridElement.1col">Grid element: 1 Column</label>
-			<label index="label.gridElement.2cols">Grid element: 2 Columns</label>
-			<label index="label.gridElement.3cols">Grid element: 3 Columns</label>
-			<label index="label.gridElement.4cols">Grid element: 4 Columns</label>
-			<label index="label.gridElement.6cols">Grid element: 6 Columns</label>
-			<label index="description.gridElement.1col">Grid element with 1 Column</label>
-			<label index="description.gridElement.2cols">Grid element with 2 Columns</label>
-			<label index="description.gridElement.3cols">Grid element with 3 Columns</label>
-			<label index="description.gridElement.4cols">Grid element with 4 Columns</label>
-			<label index="description.gridElement.6cols">Grid element with 6 Columns</label>
+			<!-- Element: GridColsTwo -->
+			<label index="flux.gridColsTwo">Grid element: 2 Columns</label>
+			<label index="flux.gridColsTwo.description">Grid element: 2 Columns</label>
+			<label index="flux.gridColsTwo.sheets.display">Display</label>
+			<label index="flux.gridColsTwo.fields.fluidRow">Fluid grid</label>
+			<label index="flux.gridColsTwo.fields.colModel">Column model</label>
+			<label index="flux.gridColsTwo.areas.columnLeft">Column left</label>
+			<label index="flux.gridColsTwo.areas.columnRight">Column right</label>
 
-			<label index="label.gridElement.span12">1 Column (100% Container)</label>
-			<label index="label.gridElement.span9">1 Column (75% Container)</label>
-			<label index="label.gridElement.span8">1 Column (66% Container)</label>
-			<label index="label.gridElement.span6">1 Column (50% Container)</label>
-			<label index="label.gridElement.span6-6">2 Columns (à 50%)</label>
-			<label index="label.gridElement.span8-4">2 Columns (66/33%)</label>
-			<label index="label.gridElement.span4-8">2 Columns (33/66%)</label>
-			<label index="label.gridElement.span9-3">2 Columns (75/25%)</label>
-			<label index="label.gridElement.span3-9">2 Columns (25/75%)</label>
-			<label index="label.gridElement.span4-4-4">3 Columns (à 33%)</label>
-			<label index="label.gridElement.span3-6-3">3 Columns (25/50/25%)</label>
-			<label index="label.gridElement.span3-3-3-3">4 Columns (à 25%)</label>
-			<label index="label.gridElement.span2-2-2-2-2-2">6 Columns (à 16%)</label>
+			<!-- Element: GridColsThree -->
+			<label index="flux.gridColsThree">Grid element: 3 Columns</label>
+			<label index="flux.gridColsThree.description">Grid element with 3 Columns</label>
+			<label index="flux.gridColsThree.sheets.display">Display</label>
+			<label index="flux.gridColsThree.fields.fluidRow">Fluid grid</label>
+			<label index="flux.gridColsThree.fields.colModel">Column model</label>
+			<label index="flux.gridColsThree.areas.columnLeft">Column left</label>
+			<label index="flux.gridColsThree.areas.columnMiddle">Column middle</label>
+			<label index="flux.gridColsThree.areas.columnRight">Column right</label>
 
-			<label index="conf.field.colModel">Column model</label>
-			<label index="conf.field.fluidRow">Fluid grid</label>
+			<!-- Element: GridColsFour -->
+			<label index="flux.gridColsFour">Grid element: 4 Columns</label>
+			<label index="flux.gridColsFour.description">Grid element with 4 Columns</label>
+			<label index="flux.gridColsFour.sheets.display">Display</label>
+			<label index="flux.gridColsFour.fields.fluidRow">Fluid grid</label>
+			<label index="flux.gridColsFour.fields.colModel">Column model</label>
+			<label index="flux.gridColsFour.areas.column1">Column 1</label>
+			<label index="flux.gridColsFour.areas.column2">Column 2</label>
+			<label index="flux.gridColsFour.areas.column3">Column 3</label>
+			<label index="flux.gridColsFour.areas.column4">Column 4</label>
 
+			<!-- Element: GridColsSix -->
+			<label index="flux.gridColsSix">Grid element: 6 Columns</label>
+			<label index="flux.gridColsSix.description">Grid element with 6 Columns</label>
+			<label index="flux.gridColsSix.sheets.display">Display</label>
+			<label index="flux.gridColsSix.fields.fluidRow">Fluid grid</label>
+			<label index="flux.gridColsSix.fields.colModel">Column model</label>
+			<label index="flux.gridColsSix.areas.column1">Column 1</label>
+			<label index="flux.gridColsSix.areas.column2">Column 2</label>
+			<label index="flux.gridColsSix.areas.column3">Column 3</label>
+			<label index="flux.gridColsSix.areas.column4">Column 4</label>
+			<label index="flux.gridColsSix.areas.column5">Column 5</label>
+			<label index="flux.gridColsSix.areas.column6">Column 6</label>
+
+			<!-- Element Column definitions -->
+			<label index="flux.gridModel.span12">1 Column (100% Container)</label>
+			<label index="flux.gridModel.span9">1 Column (75% Container)</label>
+			<label index="flux.gridModel.span8">1 Column (66% Container)</label>
+			<label index="flux.gridModel.span6">1 Column (50% Container)</label>
+			<label index="flux.gridModel.span6-6">2 Columns (à 50%)</label>
+			<label index="flux.gridModel.span8-4">2 Columns (66/33%)</label>
+			<label index="flux.gridModel.span4-8">2 Columns (33/66%)</label>
+			<label index="flux.gridModel.span9-3">2 Columns (75/25%)</label>
+			<label index="flux.gridModel.span3-9">2 Columns (25/75%)</label>
+			<label index="flux.gridModel.span4-4-4">3 Columns (à 33%)</label>
+			<label index="flux.gridModel.span3-6-3">3 Columns (25/50/25%)</label>
+			<label index="flux.gridModel.span3-3-3-3">4 Columns (à 25%)</label>
+			<label index="flux.gridModel.span2-2-2-2-2-2">6 Columns (à 16%)</label>
+
+			<!-- Unused stuff -->
 			<label index="preview.text.currentColModel">Current column model:</label>
-
-			<label index="label.gridElement.content">Content</label>
-			<label index="label.gridElement.column">Column</label>
-			<label index="label.gridElement.columnLeft">Column left</label>
-			<label index="label.gridElement.columnMiddle">Column middle</label>
-			<label index="label.gridElement.columnRight">Column right</label>
-			<label index="label.gridElement.column1">Column 1</label>
-			<label index="label.gridElement.column2">Column 2</label>
-			<label index="label.gridElement.column3">Column 3</label>
-			<label index="label.gridElement.column4">Column 4</label>
-			<label index="label.gridElement.column5">Column 5</label>
-			<label index="label.gridElement.column6">Column 6</label>
 		</languageKey>
 
 		<languageKey index="de" type="array">
-			<label index="sheet.display">Display</label>
+			<!-- Element: GridContainer -->
+			<label index="flux.gridContainer">Grid-Container</label>
+			<label index="flux.gridContainer.description">Grid-Container</label>
+			<label index="flux.gridContainer.sheets.display">Darstellung</label>
+			<label index="flux.gridContainer.fields.fluidRow">Fluides Grid</label>
+			<label index="flux.gridContainer.areas.column">Spalte</label>
 
-			<label index="label.gridElement.1col">Grid-Element: 1 Spalte</label>
-			<label index="label.gridElement.2cols">Grid-Element: 2 Spalten</label>
-			<label index="label.gridElement.3cols">Grid-Element: 3 Spalten</label>
-			<label index="label.gridElement.4cols">Grid-Element: 4 Spalten</label>
-			<label index="label.gridElement.6cols">Grid-Element: 6 Spalten</label>
-			<label index="description.gridElement.1col">Grid-Element with 1 Spalte</label>
-			<label index="description.gridElement.2cols">Grid-Element with 2 Spalten</label>
-			<label index="description.gridElement.3cols">Grid-Element with 3 Spalten</label>
-			<label index="description.gridElement.4cols">Grid-Element with 4 Spalten</label>
-			<label index="description.gridElement.6cols">Grid-Element with 6 Spalten</label>
+			<!-- Element: GridColsTwo -->
+			<label index="flux.gridColsTwo">Grid-Element: 2 Spalten</label>
+			<label index="flux.gridColsTwo.description">Grid-Element mit 2 Spalten</label>
+			<label index="flux.gridColsTwo.sheets.display">Darstellung</label>
+			<label index="flux.gridColsTwo.fields.fluidRow">Fluides Grid</label>
+			<label index="flux.gridColsTwo.fields.colModel">Spaltigkeit</label>
+			<label index="flux.gridColsTwo.areas.columnLeft">Spalte links</label>
+			<label index="flux.gridColsTwo.areas.columnRight">Spalte rechts</label>
 
-			<label index="label.gridElement.span12">1 Spalte (100% Container)</label>
-			<label index="label.gridElement.span9">1 Spalte (75% Container)</label>
-			<label index="label.gridElement.span8">1 Spalte (66% Container)</label>
-			<label index="label.gridElement.span6">1 Spalte (50% Container)</label>
-			<label index="label.gridElement.span6-6">2 Spalten (à 50%)</label>
-			<label index="label.gridElement.span8-4">2 Spalten (66/33%)</label>
-			<label index="label.gridElement.span4-8">2 Spalten (33/66%)</label>
-			<label index="label.gridElement.span9-3">2 Spalten (75/25%)</label>
-			<label index="label.gridElement.span3-9">2 Spalten (25/75%)</label>
-			<label index="label.gridElement.span4-4-4">3 Spalten (à 33%)</label>
-			<label index="label.gridElement.span3-6-3">3 Spalten (25/50/25%)</label>
-			<label index="label.gridElement.span3-3-3-3">4 Spalten (à 25%)</label>
-			<label index="label.gridElement.span2-2-2-2-2-2">6 Spalten (à 16%)</label>
+			<!-- Element: GridColsThree -->
+			<label index="flux.gridColsThree">Grid-Element: 3 Spalten</label>
+			<label index="flux.gridColsThree.description">Grid-Element mit 3 Spalten</label>
+			<label index="flux.gridColsThree.sheets.display">Darstellung</label>
+			<label index="flux.gridColsThree.fields.fluidRow">Fluides Grid</label>
+			<label index="flux.gridColsThree.fields.colModel">Spaltigkeit</label>
+			<label index="flux.gridColsThree.areas.columnLeft">Spalte links</label>
+			<label index="flux.gridColsThree.areas.columnMiddle">Spalte mittig</label>
+			<label index="flux.gridColsThree.areas.columnRight">Spalte rechts</label>
 
-			<label index="conf.field.colModel">Spaltigkeit</label>
-			<label index="conf.field.fluidRow">Fluides Grid</label>
+			<!-- Element: GridColsFour -->
+			<label index="flux.gridColsFour">Grid-Element: 4 Spalten</label>
+			<label index="flux.gridColsFour.description">Grid-Element mit 4 Spalten</label>
+			<label index="flux.gridColsFour.sheets.display">Darstellung</label>
+			<label index="flux.gridColsFour.fields.fluidRow">Fluides Grid</label>
+			<label index="flux.gridColsFour.fields.colModel">Spaltigkeit</label>
+			<label index="flux.gridColsFour.areas.column1">Spalte 1</label>
+			<label index="flux.gridColsFour.areas.column2">Spalte 2</label>
+			<label index="flux.gridColsFour.areas.column3">Spalte 3</label>
+			<label index="flux.gridColsFour.areas.column4">Spalte 4</label>
 
-			<label index="preview.text.currentColModel">Derzeitige Spaltigkeit:</label>
+			<!-- Element: GridColsSix -->
+			<label index="flux.gridColsSix">Grid-Element: 6 Spalten</label>
+			<label index="flux.gridColsSix.description">Grid-Element mit 6 Spalten</label>
+			<label index="flux.gridColsSix.sheets.display">Darstellung</label>
+			<label index="flux.gridColsSix.fields.fluidRow">Fluides Grid</label>
+			<label index="flux.gridColsSix.fields.colModel">Spaltigkeit</label>
+			<label index="flux.gridColsSix.areas.column1">Spalte 1</label>
+			<label index="flux.gridColsSix.areas.column2">Spalte 2</label>
+			<label index="flux.gridColsSix.areas.column3">Spalte 3</label>
+			<label index="flux.gridColsSix.areas.column4">Spalte 4</label>
+			<label index="flux.gridColsSix.areas.column5">Spalte 5</label>
+			<label index="flux.gridColsSix.areas.column6">Spalte 6</label>
 
-			<label index="label.gridElement.content">Inhalt</label>
-			<label index="label.gridElement.column">Spalte</label>
-			<label index="label.gridElement.columnLeft">Spalte links</label>
-			<label index="label.gridElement.columnMiddle">Spalte mittig</label>
-			<label index="label.gridElement.columnRight">Spalte rechts</label>
-			<label index="label.gridElement.column1">Spalte 1</label>
-			<label index="label.gridElement.column2">Spalte 2</label>
-			<label index="label.gridElement.column3">Spalte 3</label>
-			<label index="label.gridElement.column4">Spalte 4</label>
-			<label index="label.gridElement.column5">Spalte 5</label>
-			<label index="label.gridElement.column6">Spalte 6</label>
+			<!-- Element Column definitions -->
+			<label index="flux.gridModel.span12">1 Spalte (100% Container)</label>
+			<label index="flux.gridModel.span9">1 Spalte (75% Container)</label>
+			<label index="flux.gridModel.span8">1 Spalte (66% Container)</label>
+			<label index="flux.gridModel.span6">1 Spalte (50% Container)</label>
+			<label index="flux.gridModel.span6-6">2 Spalten (à 50%)</label>
+			<label index="flux.gridModel.span8-4">2 Spalten (66/33%)</label>
+			<label index="flux.gridModel.span4-8">2 Spalten (33/66%)</label>
+			<label index="flux.gridModel.span9-3">2 Spalten (75/25%)</label>
+			<label index="flux.gridModel.span3-9">2 Spalten (25/75%)</label>
+			<label index="flux.gridModel.span4-4-4">3 Spalten (à 33%)</label>
+			<label index="flux.gridModel.span3-6-3">3 Spalten (25/50/25%)</label>
+			<label index="flux.gridModel.span3-3-3-3">4 Spalten (à 25%)</label>
+			<label index="flux.gridModel.span2-2-2-2-2-2">6 Spalten (à 16%)</label>
+
+			<!-- Unused stuff -->
+			<label index="preview.text.currentColModel">Gewählte Spaltigkeit:</label>
+
 		</languageKey>
 	</data>
 </T3locallang>

@@ -1,14 +1,15 @@
 [GLOBAL]
-plugin.tx_fed {
-	fce.grids {
-		templateRootPath = EXT:fluidcontent_grids/Resources/Private/Elements/
-		partialRootPath = EXT:fluidcontent_grids/Resources/Private/Partials/
+plugin.tx_fluidcontentgrids {
+	view {
+		label = Fluid Content Elements - Grids
+		extensionKey = fluidcontent_grids
+		templateRootPath = EXT:fluidcontent_grids/Resources/Private/Templates/
+		partialRootPath = EXT:flux/Resources/Private/Partials/
 		layoutRootPath = EXT:fluidcontent/Resources/Private/Layouts/
 	}
-}
 
-plugin.tx_fluidcontent_grids {
 	settings {
 		l10nFile = LLL:EXT:fluidcontent_grids/Resources/Private/Language/locallang.xml
 	}
-}
+}}
+

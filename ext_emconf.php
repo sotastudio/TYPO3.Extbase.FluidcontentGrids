@@ -34,10 +34,14 @@ $EM_CONF[$_EXTKEY] = array(
 			'cms' => '',
 			'fluidcontent' => '',
 			'vhs' => '',
-			'flux' => '',
 		),
 		'conflicts' => '',
 		'suggests' => array (
+		),
+	),
+);
+
+?>(
 		),
 	),
 );

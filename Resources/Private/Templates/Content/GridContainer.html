@@ -1,0 +1,46 @@
+{namespace flux=Tx_Flux_ViewHelpers}
+{namespace v=Tx_Vhs_ViewHelpers}
+
+<f:layout name="Content"/>
+
+<div xmlns="http://www.w3.org/1999/xhtml"
+	 xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+	 xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="Configuration">
+		<v:var.set name="ts" value="{v:var.typoscript(path: 'plugin.tx_fluidcontentgrids.settings')}"/>
+
+		<flux:flexform wizardTab="Grids" id="gridContainer"
+					   icon="{v:extension.path.resources(path: 'Icons/icon-twitter.png')}">
+
+			<flux:flexform.sheet name="display">
+				<flux:flexform.field.checkbox name="fluidRow"/>
+			</flux:flexform.sheet>
+
+			<flux:flexform.grid>
+				<flux:flexform.grid.row>
+					<flux:flexform.grid.column>
+						<flux:flexform.content name="column"/>
+					</flux:flexform.grid.column>
+				</flux:flexform.grid.row>
+			</flux:flexform.grid>
+
+		</flux:flexform>
+	</f:section>
+
+
+	<f:section name="Preview">
+		<flux:widget.grid/>
+	</f:section>
+
+
+	<f:section name="Main">
+		<div class="row{f:if(condition: fluidRow, then: '-fluid')}">
+			<div class="span12">
+				<flux:flexform.renderContent area="column"/>
+			</div>
+		</div>
+	</f:section>
+
+</div>

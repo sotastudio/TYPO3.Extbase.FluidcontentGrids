@@ -1,0 +1,73 @@
+{namespace flux=Tx_Flux_ViewHelpers}
+{namespace v=Tx_Vhs_ViewHelpers}
+
+<f:layout name="Content"/>
+
+<div xmlns="http://www.w3.org/1999/xhtml"
+	 xmlns:flux="http://fedext.net/ns/flux/ViewHelpers"
+	 xmlns:v="http://fedext.net/ns/vhs/ViewHelpers"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="Configuration">
+		<v:var.set name="ts" value="{v:var.typoscript(path: 'plugin.tx_fluidcontentgrids.settings')}"/>
+
+		<flux:flexform wizardTab="Grids" id="gridColsThree"
+					   icon="{v:extension.path.resources(path: 'Icons/icon-twitter.png')}">
+
+			<flux:flexform.sheet name="display">
+				<v:var.set name="item-0" value="{f:translate(key: '{ts.l10nFile}:flux.gridModel.span4-4-4')}"/>
+				<v:var.set name="item-1" value="{f:translate(key: '{ts.l10nFile}:flux.gridModel.span3-6-3')}"/>
+
+				<flux:flexform.field.select name="colModel" items="{0: item-0, 1: item-1}"/>
+				<flux:flexform.field.checkbox name="fluidRow"/>
+			</flux:flexform.sheet>
+
+			<flux:flexform.grid>
+				<flux:flexform.grid.row>
+					<flux:flexform.grid.column>
+						<flux:flexform.content name="columnLeft"/>
+					</flux:flexform.grid.column>
+					<flux:flexform.grid.column>
+						<flux:flexform.content name="columnMiddle"/>
+					</flux:flexform.grid.column>
+					<flux:flexform.grid.column>
+						<flux:flexform.content name="columnRight"/>
+					</flux:flexform.grid.column>
+				</flux:flexform.grid.row>
+			</flux:flexform.grid>
+
+		</flux:flexform>
+	</f:section>
+
+	<f:section name="Preview">
+		<flux:widget.grid/>
+	</f:section>
+
+	<f:section name="Main">
+		<v:switch value="{colModel}">
+			<v:case case="1" break="1">
+				<v:var.set name="spanValLeft" value="3"/>
+				<v:var.set name="spanValMiddle" value="6"/>
+				<v:var.set name="spanValRight" value="3"/>
+			</v:case>
+			<v:case case="default">
+				<v:var.set name="spanValLeft" value="4"/>
+				<v:var.set name="spanValMiddle" value="4"/>
+				<v:var.set name="spanValRight" value="4"/>
+			</v:case>
+		</v:switch>
+
+		<div class="row{f:if(condition: fluidRow, then: '-fluid')}">
+			<div class="span{spanValLeft}">
+				<flux:flexform.renderContent area="columnLeft"/>
+			</div>
+			<div class="span{spanValMiddle}">
+				<flux:flexform.renderContent area="columnMiddle"/>
+			</div>
+			<div class="span{spanValRight}">
+				<flux:flexform.renderContent area="columnRight"/>
+			</div>
+		</div>
+	</f:section>
+
+</div>
