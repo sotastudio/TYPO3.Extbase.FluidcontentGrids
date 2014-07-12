@@ -2,7 +2,7 @@
 /***************************************************************
  *  Copyright notice
  *
- *  (c) 2013 Claus Due <claus@wildside.dk>, Wildside A/S
+ *  (c) 2014 Andy Hausmann <ah@sota-studio.de>, SOTA Studio
  *
  *  All rights reserved
  *
@@ -27,9 +27,9 @@
  * Content Controller
  *
  * Controller which is used to render individual elements from
- * the fluidcontent_bootstrap collection.
+ * the fluidcontent_grids collection.
  *
- * @package FluidcontentsGrids
+ * @package FluidcontentGrids
  * @subpackage Controller
  * @route off
  */

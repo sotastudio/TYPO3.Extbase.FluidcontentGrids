@@ -1,39 +1,37 @@
-# EXT:fluidcontent_grids
+Fluid Content Elements: Grids
+============================================
 
-It simply brings WooThemes awesome fully responsive jQuery Slider Plugin to TYPO3 – as a Frontend Plugin, of course.
+## What is it?
 
-
-## Dependencies
-
-* fluidcontent
-* flux
-* vhs
+A collection of Grid elements using ViewHelpers from 'EXT:vhs'.
 
 
-## Installation
+## What does it do?
 
-### Via Git
-
-Clone into typo3conf/ext/
-
-	git clone git@bitbucket.org:sotastudio/typo3.extbase.fluidcontentgrids.git /path/to/project/typo3conf/ext/fluidcontent_grids/
-
-Install via Extension Manager as usual.
-
-### Via TER
-
-Not in there yet.
+Provides the template files and TypoScript setup necessary to use the included elements.
 
 
-## Configuration
+## How does it do it?
 
-* Include **static Extension Template**
-* Create a new **Content element**
+By leveraging the integration logic provided by 'EXT:fluidcontent' - enabling use of specially constructed Fluid templates as
+content elements, much like the Flexible Content Elements concept from TemplaVoila.
 
 
-## Contribute
+## How is it installed?
 
-If you have any ideas, features or bug requests, don't hesitate to report them in the Issue Tracker.
+Download, install the extension and include the static TypoScript configuration.
 
-Feel free to fork and pull.
 
+## How is it used?
+
+After installation and inclusion of the static TypoScript, the included content elements will be available as new content element
+types when inserting new content.
+
+When inserted, each content element contains a special panel with configuration specifying how to render the content element.
+
+
+## References
+
+* https://github.com/FluidTYPO3/flux is providing many ViewHelpers for teh configuration panel
+* https://github.com/FluidTYPO3/fluidcontent is a dependency - it is the integration necessary to render Fluid Content Elements
+* https://github.com/FluidTYPO3/vhs is providing many ViewHelpers used in the Fluid Content Element templates

@@ -1,0 +1,10 @@
+ {
+     "name": "sotastudio/fluidcontent_grids",
+     "description": "The fluidcontent_grids package from SOTA Studio",
+     "require": {
+         "fluidtypo3/flux": "*",
+         "fluidtypo3/fluidcontent": "*",
+         "fluidtypo3/vhs": "*"
+     },
+     "type": "typo3-cms-extension"
+  }
