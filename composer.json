@@ -1,7 +1,7 @@
 {
 	"name": "sotastudio/fluidcontent_grids",
 	"description": "The fluidcontent_grids package from SOTA Studio",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "typo3-cms-extension",
 	"keywords": ["fluidcontent", "grid", "bootstrap", "columns", "multicoumn", "gridelements"],
 	"homepage": "https://sota-studio.de",
@@ -23,5 +23,7 @@
 		"fluidtypo3/fluidcontent": "*",
 		"fluidtypo3/vhs": "*"
 	},
-	"suggest": {}
+	"suggest": {
+
+	}
 }
