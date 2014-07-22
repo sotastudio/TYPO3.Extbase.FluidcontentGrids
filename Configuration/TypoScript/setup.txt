@@ -2,7 +2,7 @@
 plugin.tx_fluidcontentgrids {
 	view {
 		label = Fluid Content Elements - Grids
-		extensionKey = SOTAStudio.FluidcontentGrids
+		extensionKey = SotaStudio.FluidcontentGrids
 		templateRootPath = EXT:fluidcontent_grids/Resources/Private/Templates/
 		partialRootPath = EXT:flux/Resources/Private/Partials/
 		layoutRootPath = EXT:fluidcontent/Resources/Private/Layouts/
