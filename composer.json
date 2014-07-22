@@ -1,10 +1,27 @@
- {
-     "name": "sotastudio/fluidcontent_grids",
-     "description": "The fluidcontent_grids package from SOTA Studio",
-     "require": {
-         "fluidtypo3/flux": "*",
-         "fluidtypo3/fluidcontent": "*",
-         "fluidtypo3/vhs": "*"
-     },
-     "type": "typo3-cms-extension"
-  }
+{
+	"name": "sotastudio/fluidcontent_grids",
+	"description": "The fluidcontent_grids package from SOTA Studio",
+	"version": "1.0.0",
+	"type": "typo3-cms-extension",
+	"keywords": ["fluidcontent", "grid", "bootstrap", "columns", "multicoumn", "gridelements"],
+	"homepage": "https://sota-studio.de",
+	"authors": [
+		{
+			"name": "Andy Hausmann",
+			"email": "ah@sota-studio.de",
+			"homepage": "http://sota-studio.de",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "hi@sota-studio.de",
+		"issues": "https://github.com/sotastudio/TYPO3.Extbase.FluidcontentGrids/issues",
+		"source": "https://github.com/sotastudio/TYPO3.Extbase.FluidcontentGrids"
+	},
+	"require": {
+		"fluidtypo3/flux": "*",
+		"fluidtypo3/fluidcontent": "*",
+		"fluidtypo3/vhs": "*"
+	},
+	"suggest": {}
+}
