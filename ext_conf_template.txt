@@ -1,0 +1,2 @@
+# cat=basic/enable/10; type=options[LLL:EXT:fluidcontent_grids/Resources/Private/Language/locallang_be.xml:extmng.version.2=2,LLL:EXT:fluidcontent_grids/Resources/Private/Language/locallang_be.xml:extmng.version.3=3]; label=LLL:EXT:fluidcontent_grids/Resources/Private/Language/locallang_be.xml:extmng.version
+version = 3

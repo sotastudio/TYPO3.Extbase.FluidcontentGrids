@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for the FRONTEND</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="extmng.version">Twitter Bootstrap version to make use of in rendering.</label>
+			<label index="extmng.version.2">Twitter Bootstrap 2.x</label>
+			<label index="extmng.version.3">Twitter Bootstrap 3.x</label>
+		</languageKey>
+
+		<languageKey index="de" type="array">
+			<label index="extmng.version">Die im Rendering zu berücksichtigende Version von Twitter Bootstrap</label>
+			<label index="extmng.version.2">Twitter Bootstrap 2.x</label>
+			<label index="extmng.version.3">Twitter Bootstrap 3.x</label>
+		</languageKey>
+	</data>
+</T3locallang>
