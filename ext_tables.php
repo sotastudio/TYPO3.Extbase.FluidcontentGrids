@@ -5,4 +5,4 @@ if (!defined('TYPO3_MODE')) {
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Fluid Content Elements: Grids');
 
-\FluidTYPO3\Flux\Core::registerProviderExtensionKey('SOTAStudio.FluidcontentGrids', 'Content');
+\FluidTYPO3\Flux\Core::registerProviderExtensionKey('SotaStudio.FluidcontentGrids', 'Content');
